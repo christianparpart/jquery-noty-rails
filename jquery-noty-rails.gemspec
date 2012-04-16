@@ -2,7 +2,7 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "jquery-minicolors-rails"
+  s.name        = "jquery-noty-rails"
   s.version     = "0.1.0"
   s.authors     = ["Christian Parpart"]
   s.email       = ["trapni@gentoo.org"]
