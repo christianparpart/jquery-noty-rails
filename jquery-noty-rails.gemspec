@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "jquery-noty-rails"
-  s.version     = "0.1.4"
+  s.version     = "0.1.5"
   s.authors     = ["Ryan Davies"]
   s.email       = ["ryan@ryandavies.co.nz"]
   s.homepage    = "http://github.com/ProGEEK"
