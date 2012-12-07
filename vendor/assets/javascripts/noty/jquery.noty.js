@@ -148,17 +148,17 @@ if (typeof Object.create !== 'function') {
 
       var self = this;
 
-      if (!this.shown) { // If we are still waiting in the queue just delete from queue
-        console.log("I'm not being shown at the moment...");
-        var queue = [];
-        $.each($.noty.queue, function (i, n) {
-          if (n.options.id != self.options.id) {
-            queue.push(n);
-          }
-        });
-        $.noty.queue = queue;
-        return;
-      }
+      // if (!this.shown) { // If we are still waiting in the queue just delete from queue
+      //   console.log("I'm not being shown at the moment...");
+      //   var queue = [];
+      //   $.each($.noty.queue, function (i, n) {
+      //     if (n.options.id != self.options.id) {
+      //       queue.push(n);
+      //     }
+      //   });
+      //   $.noty.queue = queue;
+      //   return;
+      // }
 
       self.$bar.addClass('i-am-closing-now');
 
