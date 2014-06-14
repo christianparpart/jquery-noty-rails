@@ -1,4 +1,5 @@
 //= require noty/jquery.noty
+//= require noty/jquery.promise
 //= require noty/layouts/bottomCenter
 //= require noty/layouts/bottom
 //= require noty/layouts/bottomLeft

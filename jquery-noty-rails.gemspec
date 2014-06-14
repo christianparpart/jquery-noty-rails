@@ -3,12 +3,12 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "jquery-noty-rails"
-  s.version     = "0.1.6"
+  s.version     = "0.2.0"
   s.authors     = ["Christian Parpart", "Ryan Davies", "Jules Copeland"]
-  s.email       = ["trapni@gentoo.org", "ryan@ryandavies.co.nz"]
+  s.email       = ["trapni@gmail.com", "ryan@ryandavies.co.nz"]
   s.homepage    = "https://github.com/ProGEEK/jquery-noty-rails"
   s.summary     = "jQuery noty plugin integrated into the Rails Asset Pipeline."
-  s.description = "jQuery noty plugin integrated into the Rails Asset Pipeline. Updated for Noty 2.0.3"
+  s.description = "jQuery noty plugin integrated into the Rails Asset Pipeline. Updated for Noty 2.2.4"
 
   #s.rubyforge_project = "jquery-noty-rails"
 
